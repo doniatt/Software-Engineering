@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rd5leT5OQRk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dell 5400\\OneDrive\\Desktop\\SEproject\\AcademicProjectSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell 5400\\.nuget\\packages\\system.data.sqlclient\\4.8.6\\system.data.sqlclient.4.8.6.nupkg.sha512"
+  ],
+  "logs": []
+}

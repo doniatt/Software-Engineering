@@ -1,0 +1,104 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>AcademicProjectSystem</AssemblyName>
+    <RootNamespace>AcademicProjectSystem</RootNamespace>
+    <Nullable>disable</Nullable>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\MainDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MainDashboard.Designer.cs">
+      <DependentUpon>MainDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\BaseCrudPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\BaseCrudPanel.Designer.cs">
+      <DependentUpon>BaseCrudPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\WelcomePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\WelcomePanel.Designer.cs">
+      <DependentUpon>WelcomePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\UserManagementForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\UserManagementForm.Designer.cs">
+      <DependentUpon>UserManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\StudentManagementForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\StudentManagementForm.Designer.cs">
+      <DependentUpon>StudentManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\TeamManagementForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\TeamManagementForm.Designer.cs">
+      <DependentUpon>TeamManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\ProjectManagementForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\ProjectManagementForm.Designer.cs">
+      <DependentUpon>ProjectManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\ProjectCategoryForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\ProjectCategoryForm.Designer.cs">
+      <DependentUpon>ProjectCategoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\TaskManagementForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\TaskManagementForm.Designer.cs">
+      <DependentUpon>TaskManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\SubmissionForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\SubmissionForm.Designer.cs">
+      <DependentUpon>SubmissionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\EvaluationForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\EvaluationForm.Designer.cs">
+      <DependentUpon>EvaluationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\ReportingForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\ReportingForm.Designer.cs">
+      <DependentUpon>ReportingForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>
